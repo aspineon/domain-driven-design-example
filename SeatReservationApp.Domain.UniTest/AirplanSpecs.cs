@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using SeatReservationApp.Domain.Entities;
 
-namespace SeatReservationApp.Domain.UniTest
+namespace SeatReservationApp.Domain.UnitTest
 {
     [TestClass]
     public class AirplanSpecs

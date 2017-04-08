@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using SeatReservationApp.Domain.Entities;
 
-namespace SeatReservationApp.Domain.UniTest
+namespace SeatReservationApp.Domain.UnitTest
 {
     public class StubHelper
     {

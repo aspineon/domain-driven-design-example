@@ -1,0 +1,5 @@
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Domain\bin\Debug\SeatReservationApp.Domain.dll
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Domain\bin\Debug\SeatReservationApp.Domain.pdb
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Domain\obj\Debug\SeatReservationApp.Domain.csprojResolveAssemblyReference.cache
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Domain\obj\Debug\SeatReservationApp.Domain.dll
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Domain\obj\Debug\SeatReservationApp.Domain.pdb

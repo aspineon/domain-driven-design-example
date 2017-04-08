@@ -1,0 +1,10 @@
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Domain.UniTest\bin\Debug\SeatReservationApp.Domain.UniTest.dll
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Domain.UniTest\bin\Debug\SeatReservationApp.Domain.UniTest.pdb
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Domain.UniTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Domain.UniTest\bin\Debug\SeatReservationApp.Domain.dll
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Domain.UniTest\bin\Debug\SeatReservationApp.Domain.pdb
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Domain.UniTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Domain.UniTest\bin\Debug\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Domain.UniTest\obj\Debug\SeatReservationApp.Domain.UniTest.csprojResolveAssemblyReference.cache
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Domain.UniTest\obj\Debug\SeatReservationApp.Domain.UniTest.dll
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Domain.UniTest\obj\Debug\SeatReservationApp.Domain.UniTest.pdb

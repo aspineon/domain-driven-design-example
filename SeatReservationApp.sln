@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeatReservationApp.Domain", "SeatReservationApp.Domain\SeatReservationApp.Domain.csproj", "{A4D55C0D-8842-4A3C-A659-7ABBD3C6159E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1- Presentation", "1- Presentation", "{1F8077D9-B864-43AD-9E56-2434B236AC94}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2- Distributed Services", "2- Distributed Services", "{AC64FC33-3D59-465C-93E8-C34C66168E35}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Application", "3 - Application", "{B3164DB9-22DF-47B8-AE11-2AEACB0960B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Domain", "4 - Domain", "{48A1C805-3D4C-405A-A431-B38E517B9806}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Infrastructure", "5 - Infrastructure", "{B055DEFA-E873-4E04-8F7C-1E9D8E924CA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeatReservationApp.Domain.UniTest", "SeatReservationApp.Domain.UniTest\SeatReservationApp.Domain.UniTest.csproj", "{3EC0E1E3-4AAE-405D-B514-9C76166D494D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeatReservationApp.Impl.Application", "SeatReservationApp.Application\SeatReservationApp.Impl.Application.csproj", "{23169744-A6C2-4A50-9AC8-EF23411170E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeatReservationApp.Contracts.Application", "SeatReservationApp.Contracts.Application\SeatReservationApp.Contracts.Application.csproj", "{FAAEDB6C-755D-4B50-831A-07FEF1DA0E20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeatReservationApp.Infrastructure", "SeatReservationApp.Infrastructure\SeatReservationApp.Infrastructure.csproj", "{35F7ACB0-4A73-4423-964D-4DC0D27E5BAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeatReservationApp-WebAPI", "SeatReservationApp-WebAPI\SeatReservationApp-WebAPI.csproj", "{85459CF9-3A83-4392-B033-5C195FF2861E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4D55C0D-8842-4A3C-A659-7ABBD3C6159E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4D55C0D-8842-4A3C-A659-7ABBD3C6159E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4D55C0D-8842-4A3C-A659-7ABBD3C6159E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4D55C0D-8842-4A3C-A659-7ABBD3C6159E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EC0E1E3-4AAE-405D-B514-9C76166D494D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EC0E1E3-4AAE-405D-B514-9C76166D494D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EC0E1E3-4AAE-405D-B514-9C76166D494D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EC0E1E3-4AAE-405D-B514-9C76166D494D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23169744-A6C2-4A50-9AC8-EF23411170E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23169744-A6C2-4A50-9AC8-EF23411170E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23169744-A6C2-4A50-9AC8-EF23411170E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23169744-A6C2-4A50-9AC8-EF23411170E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAAEDB6C-755D-4B50-831A-07FEF1DA0E20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAAEDB6C-755D-4B50-831A-07FEF1DA0E20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAAEDB6C-755D-4B50-831A-07FEF1DA0E20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAAEDB6C-755D-4B50-831A-07FEF1DA0E20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35F7ACB0-4A73-4423-964D-4DC0D27E5BAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35F7ACB0-4A73-4423-964D-4DC0D27E5BAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35F7ACB0-4A73-4423-964D-4DC0D27E5BAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35F7ACB0-4A73-4423-964D-4DC0D27E5BAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85459CF9-3A83-4392-B033-5C195FF2861E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85459CF9-3A83-4392-B033-5C195FF2861E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85459CF9-3A83-4392-B033-5C195FF2861E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85459CF9-3A83-4392-B033-5C195FF2861E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A4D55C0D-8842-4A3C-A659-7ABBD3C6159E} = {48A1C805-3D4C-405A-A431-B38E517B9806}
+		{3EC0E1E3-4AAE-405D-B514-9C76166D494D} = {48A1C805-3D4C-405A-A431-B38E517B9806}
+		{23169744-A6C2-4A50-9AC8-EF23411170E6} = {B3164DB9-22DF-47B8-AE11-2AEACB0960B9}
+		{FAAEDB6C-755D-4B50-831A-07FEF1DA0E20} = {B3164DB9-22DF-47B8-AE11-2AEACB0960B9}
+		{35F7ACB0-4A73-4423-964D-4DC0D27E5BAD} = {B055DEFA-E873-4E04-8F7C-1E9D8E924CA7}
+		{85459CF9-3A83-4392-B033-5C195FF2861E} = {AC64FC33-3D59-465C-93E8-C34C66168E35}
+	EndGlobalSection
+EndGlobal

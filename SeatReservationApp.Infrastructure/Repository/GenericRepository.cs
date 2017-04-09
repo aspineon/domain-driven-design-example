@@ -30,12 +30,10 @@ namespace SeatReservationApp.Infrastructure.Repository
         {
             IQueryable<T> query = _DbSet.Where(predicate);
             return includes.Aggregate(query, (current, includeProperty) => current.Include(includeProperty));
-            return query;
         }
 
         public IQueryable<T> FindById(System.Linq.Expressions.Expression<Func<T, bool>> predicate)
         {
-
             IQueryable<T> query = _DbSet.Where(predicate);
             return query;
         }
@@ -56,6 +54,7 @@ namespace SeatReservationApp.Infrastructure.Repository
 
             if (Context.Entry(entity).State != EntityState.Detached) { return; }
 
+            _DbSet.Attach(entity);
             Context.Entry(entity).State = EntityState.Modified;
         }
 

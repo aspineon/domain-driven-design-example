@@ -5,9 +5,6 @@ namespace SeatReservationApp.Infrastructure.Repository
 {
     public class AirplaneRepository: GenericRepository<Domain.Entities.Airplane>, IAirplaneRepository
     {
-  
-        public AirplaneRepository(AirplaneContext context) : base(context)
-        {
-        }
+        public AirplaneRepository(AirplaneContext context) : base(context){ }
     }
 }

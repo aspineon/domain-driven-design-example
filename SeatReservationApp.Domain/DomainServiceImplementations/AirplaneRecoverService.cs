@@ -16,7 +16,7 @@ namespace SeatReservationApp.Domain.DomainServiceImplementations
         }
         public Airplane RecoverPlane(Airplane airplane)
         {
-           return _repository.FindBy(x => x.Id == airplane.Id, x => x.Seats).SingleOrDefault() ;
+           return _repository.FindBy(x => x.Id == airplane.Id, x => x.Seats).SingleOrDefault();
         }
     }
 }

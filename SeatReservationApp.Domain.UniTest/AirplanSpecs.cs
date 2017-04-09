@@ -10,7 +10,7 @@ namespace SeatReservationApp.Domain.UnitTest
         public void Assign_already_booked_seat()
         {
             var airplane = new Airplane(1, StubHelper.seatsStub, 4, 4);
-            var assign = airplane.AssignSeat(new Seat {Column = 4, Row = 2});
+            var assign = airplane.CanAssignSeat(new Seat {Column = 4, Row = 2});
             Assert.AreEqual(assign, false);
         }
 
@@ -18,7 +18,7 @@ namespace SeatReservationApp.Domain.UnitTest
         public void Assign_free_seat()
         {
             var airplane = new Airplane(1, StubHelper.seatsStub, 4, 4);
-            var assign = airplane.AssignSeat(new Seat { Column = 2, Row = 2 });
+            var assign = airplane.CanAssignSeat(new Seat { Column = 2, Row = 2 });
             Assert.AreEqual(assign, true);
         }
 
@@ -26,7 +26,7 @@ namespace SeatReservationApp.Domain.UnitTest
         public void Assign_seat_out_of_range()
         {
             var airplane = new Airplane(1, StubHelper.seatsStub, 4, 4);
-            var assign = airplane.AssignSeat(new Seat { Column = 5, Row = 2 });
+            var assign = airplane.CanAssignSeat(new Seat { Column = 5, Row = 2 });
             Assert.AreEqual(assign, false);
         }
 
@@ -34,7 +34,7 @@ namespace SeatReservationApp.Domain.UnitTest
         public void UnAssign_booked_seat()
         {
             var airplane = new Airplane(1, StubHelper.seatsStub, 4, 4);
-            var unassign = airplane.UnAssignSeat(new Seat { Column = 4, Row = 2 });
+            var unassign = airplane.CanUnAssignSeat(new Seat { Column = 4, Row = 2 });
             Assert.AreEqual(unassign, true);
         }
 
@@ -42,7 +42,7 @@ namespace SeatReservationApp.Domain.UnitTest
         public void UnAssign__seat_out_of_range()
         {
             var airplane = new Airplane(1, StubHelper.seatsStub, 4, 4);
-            var assign = airplane.UnAssignSeat(new Seat { Column = 9, Row = 2 });
+            var assign = airplane.CanAssignSeat(new Seat { Column = 9, Row = 2 });
             Assert.AreEqual(assign, false);
         }
 

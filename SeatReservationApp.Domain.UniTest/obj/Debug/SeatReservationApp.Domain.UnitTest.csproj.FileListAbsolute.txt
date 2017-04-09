@@ -8,3 +8,8 @@ D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.D
 D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Domain.UniTest\obj\Debug\SeatReservationApp.Domain.UnitTest.csprojResolveAssemblyReference.cache
 D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Domain.UniTest\obj\Debug\SeatReservationApp.Domain.UnitTest.dll
 D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Domain.UniTest\obj\Debug\SeatReservationApp.Domain.UnitTest.pdb
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Domain.UniTest\bin\Debug\NMock3.dll
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Domain.UniTest\bin\Debug\Microsoft.Build.Utilities.v3.5.dll
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Domain.UniTest\bin\Debug\NMock3.xml
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Domain.UniTest\bin\Debug\Microsoft.Build.Utilities.v3.5.xml
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Domain.UniTest\bin\Debug\es\Microsoft.Build.Utilities.v3.5.resources.dll

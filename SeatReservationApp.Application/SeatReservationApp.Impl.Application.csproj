@@ -41,13 +41,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SeatAssignment.cs" />
+    <Compile Include="SeatAssignmentApplicationService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SeatReservationApp.Contracts.Application\SeatReservationApp.Contracts.Application.csproj">
       <Project>{FAAEDB6C-755D-4B50-831A-07FEF1DA0E20}</Project>
       <Name>SeatReservationApp.Contracts.Application</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Exceptions\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

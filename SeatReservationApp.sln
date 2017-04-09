@@ -15,7 +15,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Domain", "4 - Domain", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Infrastructure", "5 - Infrastructure", "{B055DEFA-E873-4E04-8F7C-1E9D8E924CA7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeatReservationApp.Domain.UniTest", "SeatReservationApp.Domain.UniTest\SeatReservationApp.Domain.UniTest.csproj", "{3EC0E1E3-4AAE-405D-B514-9C76166D494D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeatReservationApp.Domain.UnitTest", "SeatReservationApp.Domain.UniTest\SeatReservationApp.Domain.UnitTest.csproj", "{3EC0E1E3-4AAE-405D-B514-9C76166D494D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeatReservationApp.Impl.Application", "SeatReservationApp.Application\SeatReservationApp.Impl.Application.csproj", "{23169744-A6C2-4A50-9AC8-EF23411170E6}"
 EndProject

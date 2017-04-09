@@ -4,11 +4,11 @@ using SeatReservationApp.Contracts.Application.DTO;
 
 namespace SeatReservationApp.Impl.Application
 {
-    public class SeatAssignment : ISeatAssignment
+    public class SeatAssignmentApplicationService : ISeatAssignmentApplicationService
     {
         public bool AssignSeat(SeatDTO seatDto)
         {
-            throw new NotImplementedException();
+            throw  new NotImplementedException();
         }
 
         public bool UnAssignSeat(SeatDTO seatDto)

@@ -63,6 +63,11 @@ namespace SeatReservationApp.Domain.Entities
             return false;
         }
 
+        public bool IsValidId(Airplane airplane)
+        {
+            return airplane.Id != null;
+        }
+
         protected bool IsValidSeat(Seat seat)
         {
             return seat.Column <= TotalColumns && seat.Column > 0 &&

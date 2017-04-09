@@ -1,0 +1,1 @@
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Infrastructure\obj\Debug\SeatReservationApp.Infrastructure.csprojResolveAssemblyReference.cache

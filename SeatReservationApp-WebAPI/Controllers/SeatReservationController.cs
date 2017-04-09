@@ -14,24 +14,24 @@ namespace SeatReservationApp_WebAPI.Controllers
     [Route("api/seats")]
     public class SeatReservationController : ApiController
     {
-        private readonly ISeatAssignmentApplicationService _seatAssignment;
+        private readonly ISeatAssignmentApplicationService _seatAssign;
 
-        public SeatReservationController(ISeatAssignmentApplicationService seatAssignment)
+        public SeatReservationController(ISeatAssignmentApplicationService seatAssign)
         {
-            _seatAssignment = seatAssignment;
+            _seatAssign = seatAssign;
         }
 
         [Route("api/seats/assign")]
         [HttpPost]
-        public IHttpActionResult AssignSeat([FromBody]SeatViewModel seatVm)
+        public IHttpActionResult AssignSeat([FromBody]SeatAssignViewModel seatVm)
         {
             try
             {
                 if (ModelState.IsValid)
                 {
-                    var mapper = MappingsFactory.GetFor(EnumViewModel.SeatViewModel);
-                    var seatDto = mapper.Get<SeatViewModel, SeatDTO>(seatVm);
-                    return Ok(_seatAssignment.AssignSeat(seatDto));
+                    var mapper = MappingsFactory.GetFor(EnumViewModel.AssignSeatDto);
+                    var seatDto = mapper.Get<SeatAssignViewModel, AssignSeatDto>(seatVm);
+                    return Ok(_seatAssign.AssignSeat(seatDto));
                 }
                 return BadRequest(ModelState);
             }

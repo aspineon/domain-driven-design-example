@@ -1,10 +1,8 @@
 ﻿namespace SeatReservationApp.Contracts.Application.DTO
 {
-    public class SeatDTO
+    public class SeatDto
     {
-        public int FlightNumber;
-        public int Column;
-        public int Row;
-
+        public string Column;
+        public string Row;
     }
 }

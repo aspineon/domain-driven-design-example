@@ -4,17 +4,17 @@ using SeatReservationApp_WebAPI.Models;
 
 namespace SeatReservationApp_WebAPI.MapFactories.MapDtoToViewModel
 {
-    internal class MappingSeatViewModel : MappingBase
+    internal class MappingSeatAssignViewModel : MappingBase
     {
         internal override TOutput Get<TInput, TOutput>(TInput source)
         {
             if (source == null) { return default(TOutput); }
 
-            var dto = source as SeatDTO;
+            var dto = source as AssignSeatDto;
 
             if (dto == null) { throw new InvalidCastException(typeof(TInput).Name); }
 
-            return new SeatViewModel
+            return new SeatAssignViewModel
             {
                 Column = dto.Column,
                 Row = dto.Column,

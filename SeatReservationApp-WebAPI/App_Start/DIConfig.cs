@@ -3,7 +3,13 @@ using System.Web.Http;
 using Autofac;
 using Autofac.Integration.WebApi;
 using SeatReservationApp.Contracts.Application;
+using SeatReservationApp.Domain.DomainServiceImplementations;
+using SeatReservationApp.Domain.DomainServicesContracts;
+using SeatReservationApp.Domain.Repository;
 using SeatReservationApp.Impl.Application;
+using SeatReservationApp.Infrastructure;
+using SeatReservationApp.Infrastructure.Context;
+using SeatReservationApp.Infrastructure.Repository;
 
 namespace SeatReservationApp_WebAPI
 {
@@ -16,6 +22,12 @@ namespace SeatReservationApp_WebAPI
             // Register your Web API controllers.
             builder.RegisterApiControllers(Assembly.GetExecutingAssembly());
             builder.RegisterType<SeatAssignmentApplicationService>().As<ISeatAssignmentApplicationService>();
+            builder.RegisterType<AirplaneCreationApplicationService>().As<IAirplaneCreationApplicationService>();
+            builder.RegisterType<AirplanePersistService>().As<IAirplanePersistService>();
+            builder.RegisterType<AirplaneRepository>().As<IAirplaneRepository>();
+            builder.RegisterType<AssignSeatService>().As<IAssignSeatService>();
+            builder.RegisterType<AirplaneRecoverService>().As<IAirplaneRecoverService>();
+            builder.RegisterType<AirplaneContext>();
 
             // Set the dependency resolver to be Autofac.
             var container = builder.Build();

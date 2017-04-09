@@ -2,7 +2,7 @@
 
 namespace SeatReservationApp_WebAPI.Models
 {
-    public class SeatViewModel
+    public class SeatAssignViewModel
     {
         [Required]
         public int FlightNumber;

@@ -40,7 +40,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MapFactories\EnumViewModel.cs" />
+    <Compile Include="MapFactories\MapDtoToEntity\MappingAirplaneEntity.cs" />
+    <Compile Include="MapFactories\MappingBase.cs" />
+    <Compile Include="MapFactories\MappingsFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="AirplaneCreationApplicartionService.cs" />
     <Compile Include="SeatAssignmentApplicationService.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -48,9 +53,14 @@
       <Project>{FAAEDB6C-755D-4B50-831A-07FEF1DA0E20}</Project>
       <Name>SeatReservationApp.Contracts.Application</Name>
     </ProjectReference>
+    <ProjectReference Include="..\SeatReservationApp.Domain\SeatReservationApp.Domain.csproj">
+      <Project>{A4D55C0D-8842-4A3C-A659-7ABBD3C6159E}</Project>
+      <Name>SeatReservationApp.Domain</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Exceptions\" />
+    <Folder Include="MapFactories\MapEntityToDto\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

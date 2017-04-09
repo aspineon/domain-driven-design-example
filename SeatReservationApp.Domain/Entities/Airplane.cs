@@ -1,13 +1,16 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 
 namespace SeatReservationApp.Domain.Entities
 {
     public class Airplane
     {
-        private readonly List<Seat> Seats;
-        public int Id;
-        public int TotalColumns;
-        public int TotalRows;
+        public List<Seat> Seats { get; set; }
+        public int Id { get; set; }
+        public int TotalColumns { get; set; }
+        public int TotalRows { get; set; }
+
+        protected Airplane() { }
 
         public Airplane(int id, List<Seat> seats, int totalColumns, int totalRows)
         {
@@ -43,19 +46,9 @@ namespace SeatReservationApp.Domain.Entities
             return freeSeats;
         }
 
-        public bool AssignSeat(Seat seat)
+        public bool CanAssignSeat(Seat seat)
         {
             if (IsValidSeat(seat) && Seats.Find(x => x.Column == seat.Column && x.Row == seat.Row).IsAvailable)
-            {
-                Seats.Find(x => x.Column == seat.Column && x.Row == seat.Row).Available = AvailabilityEnum.Booked;
-                return true;
-            }
-            return false;
-        }
-
-        public bool UnAssignSeat(Seat seat)
-        {
-            if (IsValidSeat(seat))
             {
                 Seats.Find(x => x.Column == seat.Column && x.Row == seat.Row).Available = AvailabilityEnum.Free;
                 return true;
@@ -63,9 +56,19 @@ namespace SeatReservationApp.Domain.Entities
             return false;
         }
 
-        public bool IsValidId(Airplane airplane)
+        public bool CanUnAssignSeat(Seat seat)
         {
-            return airplane.Id != null;
+            if (IsValidSeat(seat))
+            {
+                Seats.Find(x => x.Column == seat.Column && x.Row == seat.Row).Available = AvailabilityEnum.Booked;
+                return true;
+            }
+            return false;
+        }
+
+        public bool IsValidAirplane()
+        {
+            return Id != null && Seats.Count > 0 && Seats.Count(x => x.Available == AvailabilityEnum.Free) > 0;
         }
 
         protected bool IsValidSeat(Seat seat)

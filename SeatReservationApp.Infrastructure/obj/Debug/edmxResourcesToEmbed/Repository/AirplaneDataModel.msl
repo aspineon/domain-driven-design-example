@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SeatReservationAppDatabaseModelStoreContainer" CdmEntityContainer="DBEntities">
+    <EntitySetMapping Name="Airplane">
+      <EntityTypeMapping TypeName="SeatReservationApp.DatabaseModel.Airplane">
+        <MappingFragment StoreEntitySet="Airplane">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FligtNumber" ColumnName="FligtNumber" />
+          <ScalarProperty Name="SeatsId" ColumnName="SeatsId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Seats">
+      <EntityTypeMapping TypeName="SeatReservationApp.DatabaseModel.Seats">
+        <MappingFragment StoreEntitySet="Seats">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="COLUMN" ColumnName="COLUMN" />
+          <ScalarProperty Name="ROW" ColumnName="ROW" />
+          <ScalarProperty Name="AVAILABLE" ColumnName="AVAILABLE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

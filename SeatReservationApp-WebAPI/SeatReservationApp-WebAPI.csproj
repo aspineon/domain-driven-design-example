@@ -166,16 +166,21 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\AirplaneCreationController.cs" />
     <Compile Include="Controllers\SeatReservationController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="MapFactories\EnumViewModel.cs" />
+    <Compile Include="MapFactories\MapDtoToViewModel\MappingAirplaneCreationViewModel.cs" />
     <Compile Include="MapFactories\MappingBase.cs" />
-    <Compile Include="MapFactories\MapViewModelToDto\MappingSeatDto.cs" />
+    <Compile Include="MapFactories\MapViewModelToDto\MappingAirplaneDto.cs" />
+    <Compile Include="MapFactories\MapViewModelToDto\MappingAssignSeatDto.cs" />
     <Compile Include="MapFactories\MapDtoToViewModel\MappingSeatViewModel.cs" />
     <Compile Include="MapFactories\MappingsFactory.cs" />
-    <Compile Include="Models\SeatViewModel.cs" />
+    <Compile Include="Models\AirplaneCreationViewModel.cs" />
+    <Compile Include="Models\SeatAssignViewModel.cs" />
+    <Compile Include="Models\SeatsCreationViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -236,6 +241,14 @@
     <ProjectReference Include="..\SeatReservationApp.Contracts.Application\SeatReservationApp.Contracts.Application.csproj">
       <Project>{faaedb6c-755d-4b50-831a-07fef1da0e20}</Project>
       <Name>SeatReservationApp.Contracts.Application</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SeatReservationApp.Domain\SeatReservationApp.Domain.csproj">
+      <Project>{A4D55C0D-8842-4A3C-A659-7ABBD3C6159E}</Project>
+      <Name>SeatReservationApp.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SeatReservationApp.Infrastructure\SeatReservationApp.Infrastructure.csproj">
+      <Project>{35F7ACB0-4A73-4423-964D-4DC0D27E5BAD}</Project>
+      <Name>SeatReservationApp.Infrastructure</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

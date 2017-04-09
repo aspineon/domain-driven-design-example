@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SeatReservationApp.DatabaseModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Airplane">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="FligtNumber" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="SeatsId" Type="int" />
+  </EntityType>
+  <EntityType Name="Seats">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="COLUMN" Type="int" Nullable="false" />
+    <Property Name="ROW" Type="int" Nullable="false" />
+    <Property Name="AVAILABLE" Type="bit" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_dbo_Aircraft_Seats_Id">
+    <End Role="Seats" Type="Self.Seats" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Airplane" Type="Self.Airplane" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Seats">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Airplane">
+        <PropertyRef Name="SeatsId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SeatReservationAppDatabaseModelStoreContainer">
+    <EntitySet Name="Airplane" EntityType="Self.Airplane" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Seats" EntityType="Self.Seats" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_dbo_Aircraft_Seats_Id" Association="Self.FK_dbo_Aircraft_Seats_Id">
+      <End Role="Seats" EntitySet="Seats" />
+      <End Role="Airplane" EntitySet="Airplane" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -10,10 +10,14 @@ namespace SeatReservationApp_WebAPI.MapFactories
         {
             switch (model)
             {
-                case EnumViewModel.SeatViewModel:
-                    return new MappingSeatViewModel();
-                case EnumViewModel.SeatDto:
-                    return new MappingSeatDto();
+                case EnumViewModel.SeatAssignViewModel:
+                    return new MappingSeatAssignViewModel();
+                case EnumViewModel.AssignSeatDto:
+                    return new MappingAssignSeatDto();
+                case EnumViewModel.AirplaneCreationViewModel:
+                    return new MappingAirplaneCreationViewModel();
+                case EnumViewModel.AirplaneDto:
+                    return new MappingAirplaneDto();
                 default:
                     throw new NotImplementedException(string.Format("The mapping for type {0} is not implemented.", model));
             }

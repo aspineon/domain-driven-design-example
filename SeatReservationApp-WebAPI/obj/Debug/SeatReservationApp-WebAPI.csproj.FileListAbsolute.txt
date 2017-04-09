@@ -52,3 +52,9 @@ D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp-W
 D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp-WebAPI\bin\Autofac.Integration.WebApi.xml
 D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp-WebAPI\bin\SeatReservationApp.Impl.Application.dll
 D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp-WebAPI\bin\SeatReservationApp.Impl.Application.pdb
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp-WebAPI\bin\SeatReservationApp.Domain.dll
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp-WebAPI\bin\SeatReservationApp.Infrastructure.dll
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp-WebAPI\bin\EntityFramework.dll
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp-WebAPI\bin\SeatReservationApp.Domain.pdb
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp-WebAPI\bin\SeatReservationApp.Infrastructure.pdb
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp-WebAPI\bin\EntityFramework.xml

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SeatReservationApp.DatabaseModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Airplane">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="FligtNumber" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="SeatsId" Type="Int32" />
+    <NavigationProperty Name="Seats" Relationship="Self.FK_dbo_Aircraft_Seats_Id" FromRole="Airplane" ToRole="Seats" />
+  </EntityType>
+  <EntityType Name="Seats">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="COLUMN" Type="Int32" Nullable="false" />
+    <Property Name="ROW" Type="Int32" Nullable="false" />
+    <Property Name="AVAILABLE" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Airplane" Relationship="Self.FK_dbo_Aircraft_Seats_Id" FromRole="Seats" ToRole="Airplane" />
+  </EntityType>
+  <Association Name="FK_dbo_Aircraft_Seats_Id">
+    <End Role="Seats" Type="Self.Seats" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Airplane" Type="Self.Airplane" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Seats">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Airplane">
+        <PropertyRef Name="SeatsId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Airplane" EntityType="Self.Airplane" />
+    <EntitySet Name="Seats" EntityType="Self.Seats" />
+    <AssociationSet Name="FK_dbo_Aircraft_Seats_Id" Association="Self.FK_dbo_Aircraft_Seats_Id">
+      <End Role="Seats" EntitySet="Seats" />
+      <End Role="Airplane" EntitySet="Airplane" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

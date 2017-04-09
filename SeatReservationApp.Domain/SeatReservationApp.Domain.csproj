@@ -31,6 +31,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -40,17 +41,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DomainServiceImplementations\AirplaneRecoverService.cs" />
+    <Compile Include="DomainServiceImplementations\AirplanePersistService.cs" />
+    <Compile Include="DomainServiceImplementations\AssignSeatService.cs" />
+    <Compile Include="DomainServiceImplementations\IAssignSeatService.cs" />
+    <Compile Include="DomainServicesContracts\IAirplanePersistService.cs" />
+    <Compile Include="DomainServicesContracts\IAirplaneRecoverService.cs" />
     <Compile Include="Entities\Airplane.cs" />
     <Compile Include="Entities\AvailabilityEnum.cs" />
     <Compile Include="Entities\Seat.cs" />
+    <Compile Include="Exception\PersistToRepositoryException - Copy.cs" />
+    <Compile Include="Exception\PersistToRepositoryException.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\IAirplaneRepository.cs" />
     <Compile Include="Repository\IGenericRepository.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="DomainServiceImplementations\" />
-    <Folder Include="DomainServicesContracts\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

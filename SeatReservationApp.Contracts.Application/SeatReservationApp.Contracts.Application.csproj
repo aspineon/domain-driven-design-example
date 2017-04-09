@@ -40,7 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DTO\SeatDTO.cs" />
+    <Compile Include="DTO\AirplaneDto.cs" />
+    <Compile Include="DTO\AssignSeatDto.cs" />
+    <Compile Include="DTO\SeatDto.cs" />
+    <Compile Include="IAirplaneCreationApplicationService.cs" />
     <Compile Include="ISeatAssignmentApplicationService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

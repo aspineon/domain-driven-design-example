@@ -1,0 +1,9 @@
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Database\bin\Debug\SeatReservationApp.Database.dacpac
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Database\bin\Debug\SeatReservationApp.Database.dll
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Database\bin\Debug\SeatReservationApp.Database.pdb
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Database\obj\Debug\Model.xml
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Database\obj\Debug\refactor.xml
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Database\obj\Debug\postdeploy.sql
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Database\obj\Debug\predeploy.sql
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Database\obj\Debug\SeatReservationApp.Database.dll
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Database\obj\Debug\SeatReservationApp.Database.pdb

@@ -4,7 +4,7 @@ namespace SeatReservationApp.Contracts.Application
 {
     public interface ISeatAssignmentApplicationService
     {
-        bool AssignSeat(SeatDTO seatDto);
-        bool UnAssignSeat(SeatDTO seatDto);
+        bool AssignSeat(AssignSeatDto seatDto);
+        bool UnAssignSeat(AssignSeatDto seatDto);
     }
 }

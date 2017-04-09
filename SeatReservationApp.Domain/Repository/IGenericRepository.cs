@@ -7,7 +7,7 @@ namespace SeatReservationApp.Domain.Repository
     public interface IGenericRepository<T> where T : class
     {
         IQueryable<T> GetAll();
-        IQueryable<T> FindBy(Expression<Func<T, bool>> predicate);
+        IQueryable<T> FindBy(Expression<Func<T, bool>> predicate, params Expression<Func<T, object>>[] includes);
         void Add(T entity);
         void Delete(T entity);
         void Edit(T entity);

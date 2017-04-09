@@ -2,7 +2,9 @@
 {
     internal enum EnumViewModel
     {
-        SeatViewModel,
-        SeatDto
+        SeatAssignViewModel,
+        AssignSeatDto,
+        AirplaneCreationViewModel,
+        AirplaneDto
     }
 }

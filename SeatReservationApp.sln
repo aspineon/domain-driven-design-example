@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeatReservationApp.Infrastr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeatReservationApp-WebAPI", "SeatReservationApp-WebAPI\SeatReservationApp-WebAPI.csproj", "{85459CF9-3A83-4392-B033-5C195FF2861E}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SeatReservationApp.Database", "SeatReservationApp.Database\SeatReservationApp.Database.sqlproj", "{349EB3E3-8AE0-4DB0-ABFF-30B7090347CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,12 @@ Global
 		{85459CF9-3A83-4392-B033-5C195FF2861E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{85459CF9-3A83-4392-B033-5C195FF2861E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{85459CF9-3A83-4392-B033-5C195FF2861E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{349EB3E3-8AE0-4DB0-ABFF-30B7090347CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{349EB3E3-8AE0-4DB0-ABFF-30B7090347CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{349EB3E3-8AE0-4DB0-ABFF-30B7090347CA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{349EB3E3-8AE0-4DB0-ABFF-30B7090347CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{349EB3E3-8AE0-4DB0-ABFF-30B7090347CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{349EB3E3-8AE0-4DB0-ABFF-30B7090347CA}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -66,5 +74,6 @@ Global
 		{FAAEDB6C-755D-4B50-831A-07FEF1DA0E20} = {B3164DB9-22DF-47B8-AE11-2AEACB0960B9}
 		{35F7ACB0-4A73-4423-964D-4DC0D27E5BAD} = {B055DEFA-E873-4E04-8F7C-1E9D8E924CA7}
 		{85459CF9-3A83-4392-B033-5C195FF2861E} = {AC64FC33-3D59-465C-93E8-C34C66168E35}
+		{349EB3E3-8AE0-4DB0-ABFF-30B7090347CA} = {B055DEFA-E873-4E04-8F7C-1E9D8E924CA7}
 	EndGlobalSection
 EndGlobal

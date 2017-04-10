@@ -1,0 +1,5 @@
+C:\Users\PortatilIN2\Desktop\Proyectos\Proyectos Pluralsight\net-ddd\SeatReservationApp.Users.Domain\bin\Debug\SeatReservationApp.Users.Domain.dll
+C:\Users\PortatilIN2\Desktop\Proyectos\Proyectos Pluralsight\net-ddd\SeatReservationApp.Users.Domain\bin\Debug\SeatReservationApp.Users.Domain.pdb
+C:\Users\PortatilIN2\Desktop\Proyectos\Proyectos Pluralsight\net-ddd\SeatReservationApp.Users.Domain\obj\Debug\SeatReservationApp.Users.Domain.csprojResolveAssemblyReference.cache
+C:\Users\PortatilIN2\Desktop\Proyectos\Proyectos Pluralsight\net-ddd\SeatReservationApp.Users.Domain\obj\Debug\SeatReservationApp.Users.Domain.dll
+C:\Users\PortatilIN2\Desktop\Proyectos\Proyectos Pluralsight\net-ddd\SeatReservationApp.Users.Domain\obj\Debug\SeatReservationApp.Users.Domain.pdb

@@ -45,6 +45,7 @@
     <Compile Include="DTO\SeatDto.cs" />
     <Compile Include="IAirplaneCreationApplicationService.cs" />
     <Compile Include="ISeatAssignmentApplicationService.cs" />
+    <Compile Include="ISeatAvailabilityApplicationService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Entities\Booking.cs" />
+    <Compile Include="Entities\Seat.cs" />
     <Compile Include="Entities\User.cs" />
     <Compile Include="Entities\UserAddress.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

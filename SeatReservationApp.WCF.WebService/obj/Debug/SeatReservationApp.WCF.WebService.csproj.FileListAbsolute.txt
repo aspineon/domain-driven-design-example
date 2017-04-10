@@ -1,0 +1,16 @@
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.WCF.WebService\bin\SeatReservationApp.WCF.WebService.dll.config
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.WCF.WebService\bin\SeatReservationApp.WCF.WebService.dll
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.WCF.WebService\bin\SeatReservationApp.WCF.WebService.pdb
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.WCF.WebService\obj\Debug\SeatReservationApp.WCF.WebService.csprojResolveAssemblyReference.cache
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.WCF.WebService\obj\Debug\SeatReservationApp.WCF.WebService.dll
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.WCF.WebService\obj\Debug\SeatReservationApp.WCF.WebService.pdb
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.WCF.WebService\bin\Autofac.dll
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.WCF.WebService\bin\Autofac.Integration.Wcf.dll
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.WCF.WebService\bin\SeatReservationApp.Contracts.Application.dll
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.WCF.WebService\bin\SeatReservationApp.Contracts.Application.pdb
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.WCF.WebService\bin\Autofac.xml
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.WCF.WebService\bin\Autofac.Integration.Wcf.xml
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.WCF.WebService\bin\SeatReservationApp.Impl.Application.dll
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.WCF.WebService\bin\SeatReservationApp.Airplanes.Domain.dll
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.WCF.WebService\bin\SeatReservationApp.Impl.Application.pdb
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.WCF.WebService\bin\SeatReservationApp.Airplanes.Domain.pdb

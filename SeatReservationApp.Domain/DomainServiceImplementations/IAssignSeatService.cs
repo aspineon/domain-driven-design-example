@@ -1,6 +1,6 @@
-﻿using SeatReservationApp.Domain.Entities;
+﻿using SeatReservationApp.Airplanes.Domain.Entities;
 
-namespace SeatReservationApp.Domain.DomainServiceImplementations
+namespace SeatReservationApp.Airplanes.Domain.DomainServiceImplementations
 {
     public interface IAssignSeatService
     {

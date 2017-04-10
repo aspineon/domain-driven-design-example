@@ -1,4 +1,4 @@
-﻿namespace SeatReservationApp.Domain.Entities
+﻿namespace SeatReservationApp.Airplanes.Domain.Entities
 {
     public enum AvailabilityEnum
     {

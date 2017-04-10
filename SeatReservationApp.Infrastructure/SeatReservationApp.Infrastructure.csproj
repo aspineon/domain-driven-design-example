@@ -57,9 +57,9 @@
     <Compile Include="Repository\GenericRepository.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SeatReservationApp.Domain\SeatReservationApp.Domain.csproj">
+    <ProjectReference Include="..\SeatReservationApp.Domain\SeatReservationApp.Airplanes.Domain.csproj">
       <Project>{A4D55C0D-8842-4A3C-A659-7ABBD3C6159E}</Project>
-      <Name>SeatReservationApp.Domain</Name>
+      <Name>SeatReservationApp.Airplanes.Domain</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

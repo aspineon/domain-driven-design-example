@@ -3,3 +3,7 @@ D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.C
 D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Contracts.Application\bin\Debug\SeatReservationApp.Contracts.Application.pdb
 D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Contracts.Application\obj\Debug\SeatReservationApp.Contracts.Application.dll
 D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Contracts.Application\obj\Debug\SeatReservationApp.Contracts.Application.pdb
+C:\Users\PortatilIN2\Desktop\Proyectos\Proyectos Pluralsight\net-ddd\SeatReservationApp.Contracts.Application\bin\Debug\SeatReservationApp.Contracts.Application.dll
+C:\Users\PortatilIN2\Desktop\Proyectos\Proyectos Pluralsight\net-ddd\SeatReservationApp.Contracts.Application\bin\Debug\SeatReservationApp.Contracts.Application.pdb
+C:\Users\PortatilIN2\Desktop\Proyectos\Proyectos Pluralsight\net-ddd\SeatReservationApp.Contracts.Application\obj\Debug\SeatReservationApp.Contracts.Application.dll
+C:\Users\PortatilIN2\Desktop\Proyectos\Proyectos Pluralsight\net-ddd\SeatReservationApp.Contracts.Application\obj\Debug\SeatReservationApp.Contracts.Application.pdb

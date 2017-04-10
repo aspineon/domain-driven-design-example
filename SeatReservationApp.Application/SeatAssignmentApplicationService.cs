@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using SeatReservationApp.Airplanes.Domain.DomainServiceImplementations;
+using SeatReservationApp.Airplanes.Domain.Entities;
 using SeatReservationApp.Contracts.Application;
 using SeatReservationApp.Contracts.Application.DTO;
-using SeatReservationApp.Domain.DomainServiceImplementations;
-using SeatReservationApp.Domain.Entities;
 
 namespace SeatReservationApp.Impl.Application
 {

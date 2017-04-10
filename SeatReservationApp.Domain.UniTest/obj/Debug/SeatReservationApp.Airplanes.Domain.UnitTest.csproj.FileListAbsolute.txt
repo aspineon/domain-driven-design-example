@@ -1,0 +1,15 @@
+C:\Users\PortatilIN2\Desktop\Proyectos\Proyectos Pluralsight\net-ddd\SeatReservationApp.Domain.UniTest\bin\Debug\SeatReservationApp.Domain.UnitTest.dll
+C:\Users\PortatilIN2\Desktop\Proyectos\Proyectos Pluralsight\net-ddd\SeatReservationApp.Domain.UniTest\bin\Debug\SeatReservationApp.Domain.UnitTest.pdb
+C:\Users\PortatilIN2\Desktop\Proyectos\Proyectos Pluralsight\net-ddd\SeatReservationApp.Domain.UniTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\PortatilIN2\Desktop\Proyectos\Proyectos Pluralsight\net-ddd\SeatReservationApp.Domain.UniTest\bin\Debug\NMock3.dll
+C:\Users\PortatilIN2\Desktop\Proyectos\Proyectos Pluralsight\net-ddd\SeatReservationApp.Domain.UniTest\bin\Debug\SeatReservationApp.Airplanes.Domain.dll
+C:\Users\PortatilIN2\Desktop\Proyectos\Proyectos Pluralsight\net-ddd\SeatReservationApp.Domain.UniTest\bin\Debug\Microsoft.Build.Utilities.v3.5.dll
+C:\Users\PortatilIN2\Desktop\Proyectos\Proyectos Pluralsight\net-ddd\SeatReservationApp.Domain.UniTest\bin\Debug\SeatReservationApp.Airplanes.Domain.pdb
+C:\Users\PortatilIN2\Desktop\Proyectos\Proyectos Pluralsight\net-ddd\SeatReservationApp.Domain.UniTest\bin\Debug\NMock3.xml
+C:\Users\PortatilIN2\Desktop\Proyectos\Proyectos Pluralsight\net-ddd\SeatReservationApp.Domain.UniTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\PortatilIN2\Desktop\Proyectos\Proyectos Pluralsight\net-ddd\SeatReservationApp.Domain.UniTest\bin\Debug\Microsoft.Build.Utilities.v3.5.xml
+C:\Users\PortatilIN2\Desktop\Proyectos\Proyectos Pluralsight\net-ddd\SeatReservationApp.Domain.UniTest\bin\Debug\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\PortatilIN2\Desktop\Proyectos\Proyectos Pluralsight\net-ddd\SeatReservationApp.Domain.UniTest\bin\Debug\es\Microsoft.Build.Utilities.v3.5.resources.dll
+C:\Users\PortatilIN2\Desktop\Proyectos\Proyectos Pluralsight\net-ddd\SeatReservationApp.Domain.UniTest\obj\Debug\SeatReservationApp.Airplanes.Domain.UnitTest.csprojResolveAssemblyReference.cache
+C:\Users\PortatilIN2\Desktop\Proyectos\Proyectos Pluralsight\net-ddd\SeatReservationApp.Domain.UniTest\obj\Debug\SeatReservationApp.Domain.UnitTest.dll
+C:\Users\PortatilIN2\Desktop\Proyectos\Proyectos Pluralsight\net-ddd\SeatReservationApp.Domain.UniTest\obj\Debug\SeatReservationApp.Domain.UnitTest.pdb

@@ -1,6 +1,6 @@
-﻿using SeatReservationApp.Domain.Entities;
+﻿using SeatReservationApp.Airplanes.Domain.Entities;
 
-namespace SeatReservationApp.Domain.DomainServicesContracts
+namespace SeatReservationApp.Airplanes.Domain.DomainServicesContracts
 {
     public interface IAirplaneRecoverService
     {

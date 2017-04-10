@@ -2,10 +2,10 @@
 using System.Web.Http;
 using Autofac;
 using Autofac.Integration.WebApi;
+using SeatReservationApp.Airplanes.Domain.DomainServiceImplementations;
+using SeatReservationApp.Airplanes.Domain.DomainServicesContracts;
+using SeatReservationApp.Airplanes.Domain.Repository;
 using SeatReservationApp.Contracts.Application;
-using SeatReservationApp.Domain.DomainServiceImplementations;
-using SeatReservationApp.Domain.DomainServicesContracts;
-using SeatReservationApp.Domain.Repository;
 using SeatReservationApp.Impl.Application;
 using SeatReservationApp.Infrastructure;
 using SeatReservationApp.Infrastructure.Context;

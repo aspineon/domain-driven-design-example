@@ -1,8 +1,8 @@
 ﻿using System;
+using SeatReservationApp.Airplanes.Domain.DomainServicesContracts;
+using SeatReservationApp.Airplanes.Domain.Entities;
 using SeatReservationApp.Contracts.Application;
 using SeatReservationApp.Contracts.Application.DTO;
-using SeatReservationApp.Domain.DomainServicesContracts;
-using SeatReservationApp.Domain.Entities;
 using SeatReservationApp.Impl.Application.MapFactories;
 
 namespace SeatReservationApp.Impl.Application

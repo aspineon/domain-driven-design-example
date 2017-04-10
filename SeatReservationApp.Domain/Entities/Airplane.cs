@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace SeatReservationApp.Domain.Entities
+namespace SeatReservationApp.Airplanes.Domain.Entities
 {
     public class Airplane
     {

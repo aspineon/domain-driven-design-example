@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace SeatReservationApp.Domain.Repository
+namespace SeatReservationApp.Airplanes.Domain.Repository
 {
     public interface IGenericRepository<T> where T : class
     {

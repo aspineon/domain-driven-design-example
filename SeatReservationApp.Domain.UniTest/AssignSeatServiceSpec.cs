@@ -6,10 +6,10 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using NMock;
-using SeatReservationApp.Domain.DomainServiceImplementations;
-using SeatReservationApp.Domain.DomainServicesContracts;
-using SeatReservationApp.Domain.Entities;
-using SeatReservationApp.Domain.Repository;
+using SeatReservationApp.Airplanes.Domain.DomainServiceImplementations;
+using SeatReservationApp.Airplanes.Domain.DomainServicesContracts;
+using SeatReservationApp.Airplanes.Domain.Entities;
+using SeatReservationApp.Airplanes.Domain.Repository;
 
 namespace SeatReservationApp.Domain.UnitTest
 {

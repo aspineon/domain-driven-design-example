@@ -12,7 +12,7 @@
 		</CustomData>
 		<CustomData Category="Reference" Type="Assembly">
 			<Metadata Name="LogicalName" Value="SeatReservationApp.Database.dll" />
-			<Metadata Name="FileName" Value="D:\NET PROJECTS\DDD-SEATPLANERESERVATION\SEATRESERVATIONAPP\SEATRESERVATIONAPP.DATABASE\OBJ\DEBUG\SEATRESERVATIONAPP.DATABASE.DLL" />
+			<Metadata Name="FileName" Value="C:\USERS\PORTATILIN2\DESKTOP\PROYECTOS\PROYECTOS PLURALSIGHT\NET-DDD\SEATRESERVATIONAPP.DATABASE\OBJ\DEBUG\SEATRESERVATIONAPP.DATABASE.DLL" />
 			<Metadata Name="AssemblyName" Value="SeatReservationApp.Database" />
 			<Metadata Name="PermissionSet" Value="SAFE" />
 			<Metadata Name="Owner" Value="" />
@@ -20,7 +20,7 @@
 			<Metadata Name="IsVisible" Value="True" />
 			<Metadata Name="IsModelAware" Value="True" />
 			<Metadata Name="SkipCreationIfEmpty" Value="True" />
-			<Metadata Name="AssemblySymbolsName" Value="D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Database\obj\Debug\SeatReservationApp.Database.pdb" />
+			<Metadata Name="AssemblySymbolsName" Value="C:\Users\PortatilIN2\Desktop\Proyectos\Proyectos Pluralsight\net-ddd\SeatReservationApp.Database\obj\Debug\SeatReservationApp.Database.pdb" />
 		</CustomData>
 		<CustomData Category="SqlCmdVariables" Type="SqlCmdVariable" />
 	</Header>
@@ -67,7 +67,7 @@
 					<Element Type="SqlIndexedColumnSpecification">
 						<Relationship Name="Column">
 							<Entry>
-								<References Name="[dbo].[Aircraft].[Id]" />
+								<References Name="[dbo].[Seats].[Id]" />
 							</Entry>
 						</Relationship>
 					</Element>
@@ -75,7 +75,7 @@
 			</Relationship>
 			<Relationship Name="DefiningTable">
 				<Entry>
-					<References Name="[dbo].[Aircraft]" />
+					<References Name="[dbo].[Seats]" />
 				</Entry>
 			</Relationship>
 			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="4" />
@@ -86,7 +86,7 @@
 					<Element Type="SqlIndexedColumnSpecification">
 						<Relationship Name="Column">
 							<Entry>
-								<References Name="[dbo].[Seats].[Id]" />
+								<References Name="[dbo].[Aircraft].[Id]" />
 							</Entry>
 						</Relationship>
 					</Element>
@@ -94,7 +94,7 @@
 			</Relationship>
 			<Relationship Name="DefiningTable">
 				<Entry>
-					<References Name="[dbo].[Seats]" />
+					<References Name="[dbo].[Aircraft]" />
 				</Entry>
 			</Relationship>
 			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="5" />
@@ -116,7 +116,7 @@
 								</Element>
 							</Entry>
 						</Relationship>
-						<AttachedAnnotation Disambiguator="4" />
+						<AttachedAnnotation Disambiguator="5" />
 					</Element>
 				</Entry>
 				<Entry>
@@ -200,7 +200,7 @@
 								</Element>
 							</Entry>
 						</Relationship>
-						<AttachedAnnotation Disambiguator="5" />
+						<AttachedAnnotation Disambiguator="4" />
 					</Element>
 				</Entry>
 				<Entry>

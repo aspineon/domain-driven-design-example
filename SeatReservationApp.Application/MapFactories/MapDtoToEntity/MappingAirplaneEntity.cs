@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using SeatReservationApp.Airplanes.Domain.Entities;
 using SeatReservationApp.Contracts.Application.DTO;
-using SeatReservationApp.Domain.Entities;
 
 namespace SeatReservationApp.Impl.Application.MapFactories.MapDtoToEntity
 {

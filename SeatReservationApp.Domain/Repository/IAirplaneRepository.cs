@@ -1,6 +1,6 @@
-﻿using SeatReservationApp.Domain.Entities;
+﻿using SeatReservationApp.Airplanes.Domain.Entities;
 
-namespace SeatReservationApp.Domain.Repository
+namespace SeatReservationApp.Airplanes.Domain.Repository
 {
     public interface IAirplaneRepository : IGenericRepository<Airplane>
     {

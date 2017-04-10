@@ -3,3 +3,8 @@ D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.D
 D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Domain\obj\Debug\SeatReservationApp.Domain.csprojResolveAssemblyReference.cache
 D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Domain\obj\Debug\SeatReservationApp.Domain.dll
 D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Domain\obj\Debug\SeatReservationApp.Domain.pdb
+C:\Users\PortatilIN2\Desktop\Proyectos\Proyectos Pluralsight\net-ddd\SeatReservationApp.Domain\bin\Debug\SeatReservationApp.Domain.dll
+C:\Users\PortatilIN2\Desktop\Proyectos\Proyectos Pluralsight\net-ddd\SeatReservationApp.Domain\bin\Debug\SeatReservationApp.Domain.pdb
+C:\Users\PortatilIN2\Desktop\Proyectos\Proyectos Pluralsight\net-ddd\SeatReservationApp.Domain\obj\Debug\SeatReservationApp.Domain.csprojResolveAssemblyReference.cache
+C:\Users\PortatilIN2\Desktop\Proyectos\Proyectos Pluralsight\net-ddd\SeatReservationApp.Domain\obj\Debug\SeatReservationApp.Domain.dll
+C:\Users\PortatilIN2\Desktop\Proyectos\Proyectos Pluralsight\net-ddd\SeatReservationApp.Domain\obj\Debug\SeatReservationApp.Domain.pdb

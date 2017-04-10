@@ -1,10 +1,9 @@
 ﻿using System.Linq;
-using System.Runtime.Remoting.Messaging;
-using SeatReservationApp.Domain.DomainServicesContracts;
-using SeatReservationApp.Domain.Entities;
-using SeatReservationApp.Domain.Repository;
+using SeatReservationApp.Airplanes.Domain.DomainServicesContracts;
+using SeatReservationApp.Airplanes.Domain.Entities;
+using SeatReservationApp.Airplanes.Domain.Repository;
 
-namespace SeatReservationApp.Domain.DomainServiceImplementations
+namespace SeatReservationApp.Airplanes.Domain.DomainServiceImplementations
 {
     public class AirplaneRecoverService : IAirplaneRecoverService
     {

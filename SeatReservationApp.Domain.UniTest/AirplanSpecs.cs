@@ -1,5 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using SeatReservationApp.Domain.Entities;
+using SeatReservationApp.Airplanes.Domain.Entities;
 
 namespace SeatReservationApp.Domain.UnitTest
 {

@@ -10,3 +10,15 @@ D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.I
 D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
 D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Infrastructure\obj\Debug\SeatReservationApp.Infrastructure.dll
 D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Infrastructure\obj\Debug\SeatReservationApp.Infrastructure.pdb
+C:\Users\PortatilIN2\Desktop\Proyectos\Proyectos Pluralsight\net-ddd\SeatReservationApp.Infrastructure\bin\Debug\SeatReservationApp.Infrastructure.dll.config
+C:\Users\PortatilIN2\Desktop\Proyectos\Proyectos Pluralsight\net-ddd\SeatReservationApp.Infrastructure\bin\Debug\SeatReservationApp.Infrastructure.dll
+C:\Users\PortatilIN2\Desktop\Proyectos\Proyectos Pluralsight\net-ddd\SeatReservationApp.Infrastructure\bin\Debug\SeatReservationApp.Infrastructure.pdb
+C:\Users\PortatilIN2\Desktop\Proyectos\Proyectos Pluralsight\net-ddd\SeatReservationApp.Infrastructure\bin\Debug\EntityFramework.dll
+C:\Users\PortatilIN2\Desktop\Proyectos\Proyectos Pluralsight\net-ddd\SeatReservationApp.Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\PortatilIN2\Desktop\Proyectos\Proyectos Pluralsight\net-ddd\SeatReservationApp.Infrastructure\bin\Debug\EntityFramework.xml
+C:\Users\PortatilIN2\Desktop\Proyectos\Proyectos Pluralsight\net-ddd\SeatReservationApp.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\PortatilIN2\Desktop\Proyectos\Proyectos Pluralsight\net-ddd\SeatReservationApp.Infrastructure\obj\Debug\SeatReservationApp.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\PortatilIN2\Desktop\Proyectos\Proyectos Pluralsight\net-ddd\SeatReservationApp.Infrastructure\obj\Debug\SeatReservationApp.Infrastructure.dll
+C:\Users\PortatilIN2\Desktop\Proyectos\Proyectos Pluralsight\net-ddd\SeatReservationApp.Infrastructure\obj\Debug\SeatReservationApp.Infrastructure.pdb
+C:\Users\PortatilIN2\Desktop\Proyectos\Proyectos Pluralsight\net-ddd\SeatReservationApp.Infrastructure\bin\Debug\SeatReservationApp.Airplanes.Domain.dll
+C:\Users\PortatilIN2\Desktop\Proyectos\Proyectos Pluralsight\net-ddd\SeatReservationApp.Infrastructure\bin\Debug\SeatReservationApp.Airplanes.Domain.pdb

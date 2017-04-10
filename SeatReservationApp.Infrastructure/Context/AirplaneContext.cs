@@ -1,6 +1,6 @@
 ﻿using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
-using SeatReservationApp.Domain.Entities;
+using SeatReservationApp.Airplanes.Domain.Entities;
 
 namespace SeatReservationApp.Infrastructure.Context
 {

@@ -3,7 +3,7 @@ using System.Data;
 using System.Data.Entity;
 using System.Linq;
 using System.Linq.Expressions;
-using SeatReservationApp.Domain.Repository;
+using SeatReservationApp.Airplanes.Domain.Repository;
 
 namespace SeatReservationApp.Infrastructure.Repository
 {

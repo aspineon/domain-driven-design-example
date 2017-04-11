@@ -1,0 +1,12 @@
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Management.Infrastructure.IntegTest\bin\Debug\SeatReservationApp.Management.Infrastructure.IntegTest.dll
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Management.Infrastructure.IntegTest\bin\Debug\SeatReservationApp.Management.Infrastructure.IntegTest.pdb
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Management.Infrastructure.IntegTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Management.Infrastructure.IntegTest\bin\Debug\SeatReservationApp.Management.Domain.dll
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Management.Infrastructure.IntegTest\bin\Debug\SeatReservationApp.Management.Infrastructure.dll
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Management.Infrastructure.IntegTest\bin\Debug\SeatReservationApp.Management.Domain.pdb
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Management.Infrastructure.IntegTest\bin\Debug\SeatReservationApp.Management.Infrastructure.pdb
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Management.Infrastructure.IntegTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Management.Infrastructure.IntegTest\bin\Debug\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Management.Infrastructure.IntegTest\obj\Debug\SeatReservationApp.Management.Infrastructure.IntegTest.csprojResolveAssemblyReference.cache
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Management.Infrastructure.IntegTest\obj\Debug\SeatReservationApp.Management.Infrastructure.IntegTest.dll
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Management.Infrastructure.IntegTest\obj\Debug\SeatReservationApp.Management.Infrastructure.IntegTest.pdb

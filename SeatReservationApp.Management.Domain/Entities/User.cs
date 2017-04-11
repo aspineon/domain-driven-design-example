@@ -12,6 +12,8 @@ namespace SeatReservationApp.Management.Domain.Entities
         public string Telephone { get; set; }
         private const string RegexTelephone = @"^\(\d{3}\) ?\d{3}( |-)?\d{4}|^\d{3}( |-)?\d{3}( |-)?\d{4}";
 
+        public User() { }
+
         public User(int id, string firstName, string lastName, UserAddress address, string telephone)
         {
             Id = id;

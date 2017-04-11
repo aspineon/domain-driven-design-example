@@ -1,0 +1,25 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[Booking]
+       [dbo].[BookingSeats]
+       [dbo].[User]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Table rebuild
+       [dbo].[Booking] (Table)
+       [dbo].[BookingSeats] (Table)
+       [dbo].[User] (Table)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_dbo.Booking.Seats_Id] (Foreign Key)
+       [dbo].[FK_dbo.Booking.User_Id] (Foreign Key)
+     Create
+       [dbo].[FK_dbo.Booking.Seats_Id] (Foreign Key)
+       [dbo].[FK_dbo.Booking.User_Id] (Foreign Key)

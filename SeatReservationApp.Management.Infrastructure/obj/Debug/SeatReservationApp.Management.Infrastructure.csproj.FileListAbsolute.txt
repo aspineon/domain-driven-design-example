@@ -1,0 +1,7 @@
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Management.Infrastructure\bin\Debug\SeatReservationApp.Management.Infrastructure.dll
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Management.Infrastructure\bin\Debug\SeatReservationApp.Management.Infrastructure.pdb
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Management.Infrastructure\bin\Debug\SeatReservationApp.Management.Domain.dll
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Management.Infrastructure\bin\Debug\SeatReservationApp.Management.Domain.pdb
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Management.Infrastructure\obj\Debug\SeatReservationApp.Management.Infrastructure.csprojResolveAssemblyReference.cache
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Management.Infrastructure\obj\Debug\SeatReservationApp.Management.Infrastructure.dll
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Management.Infrastructure\obj\Debug\SeatReservationApp.Management.Infrastructure.pdb

@@ -1,0 +1,12 @@
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Infrastructure\bin\Debug\SeatReservationApp.Airplanes.Infrastructure.dll.config
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Infrastructure\bin\Debug\SeatReservationApp.Airplanes.Infrastructure.dll
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Infrastructure\bin\Debug\SeatReservationApp.Airplanes.Infrastructure.pdb
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Infrastructure\bin\Debug\EntityFramework.dll
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Infrastructure\bin\Debug\SeatReservationApp.Airplanes.Domain.dll
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Infrastructure\bin\Debug\SeatReservationApp.Airplanes.Domain.pdb
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Infrastructure\bin\Debug\EntityFramework.xml
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Infrastructure\obj\Debug\SeatReservationApp.Airplanes.Infrastructure.csprojResolveAssemblyReference.cache
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Infrastructure\obj\Debug\SeatReservationApp.Airplanes.Infrastructure.dll
+D:\NET Projects\DDD-SeatPlaneReservation\SeatReservationApp\SeatReservationApp.Infrastructure\obj\Debug\SeatReservationApp.Airplanes.Infrastructure.pdb

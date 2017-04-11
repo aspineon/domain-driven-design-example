@@ -8,7 +8,7 @@ namespace SeatReservationApp.Management.Domain.Entities
         public Seat Seat { get; set; }
         public DateTime Departure { get; set; }
         public DateTime Arrival { get; set; }
-        protected User User { get; set;  }
+        public User User { get; set;  }
 
         public User GetBookingCreator()
         {

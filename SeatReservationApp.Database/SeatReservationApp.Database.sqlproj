@@ -61,5 +61,8 @@
   <ItemGroup>
     <Build Include="Aircraft.sql" />
     <Build Include="Seats.sql" />
+    <Build Include="Booking.sql" />
+    <Build Include="User.sql" />
+    <Build Include="BookingSeats.sql" />
   </ItemGroup>
 </Project>

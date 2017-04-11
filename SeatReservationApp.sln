@@ -21,7 +21,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeatReservationApp.Impl.App
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeatReservationApp.Contracts.Application", "SeatReservationApp.Contracts.Application\SeatReservationApp.Contracts.Application.csproj", "{FAAEDB6C-755D-4B50-831A-07FEF1DA0E20}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeatReservationApp.Infrastructure", "SeatReservationApp.Infrastructure\SeatReservationApp.Infrastructure.csproj", "{35F7ACB0-4A73-4423-964D-4DC0D27E5BAD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeatReservationApp.Airplanes.Infrastructure", "SeatReservationApp.Infrastructure\SeatReservationApp.Airplanes.Infrastructure.csproj", "{35F7ACB0-4A73-4423-964D-4DC0D27E5BAD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeatReservationApp-WebAPI", "SeatReservationApp-WebAPI\SeatReservationApp-WebAPI.csproj", "{85459CF9-3A83-4392-B033-5C195FF2861E}"
 EndProject
@@ -32,6 +32,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeatReservationApp.Management.UnitTest", "SeatReservationApp.Management.Domain.UnitTest\SeatReservationApp.Management.UnitTest.csproj", "{A30FD9BF-41F6-4155-9C75-8B790544FB6E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeatReservationApp.WCF.WebService", "SeatReservationApp.WCF.WebService\SeatReservationApp.WCF.WebService.csproj", "{7979EAFE-8BC4-4BC5-82CF-A40B7B63D6EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeatReservationApp.Management.Infrastructure", "SeatReservationApp.Management.Infrastructure\SeatReservationApp.Management.Infrastructure.csproj", "{8CD1003B-F744-4905-8ACA-06363EC0B28C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeatReservationApp.Management.Infrastructure.IntegTest", "SeatReservationApp.Management.Infrastructure.IntegTest\SeatReservationApp.Management.Infrastructure.IntegTest.csproj", "{32A146F7-AFEA-4D2E-AD31-66B775F8440A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +85,14 @@ Global
 		{7979EAFE-8BC4-4BC5-82CF-A40B7B63D6EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7979EAFE-8BC4-4BC5-82CF-A40B7B63D6EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7979EAFE-8BC4-4BC5-82CF-A40B7B63D6EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CD1003B-F744-4905-8ACA-06363EC0B28C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CD1003B-F744-4905-8ACA-06363EC0B28C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CD1003B-F744-4905-8ACA-06363EC0B28C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CD1003B-F744-4905-8ACA-06363EC0B28C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32A146F7-AFEA-4D2E-AD31-66B775F8440A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32A146F7-AFEA-4D2E-AD31-66B775F8440A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32A146F7-AFEA-4D2E-AD31-66B775F8440A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32A146F7-AFEA-4D2E-AD31-66B775F8440A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -96,5 +108,7 @@ Global
 		{2AF084F3-80C9-4B4B-848E-CCFE64214155} = {48A1C805-3D4C-405A-A431-B38E517B9806}
 		{A30FD9BF-41F6-4155-9C75-8B790544FB6E} = {48A1C805-3D4C-405A-A431-B38E517B9806}
 		{7979EAFE-8BC4-4BC5-82CF-A40B7B63D6EF} = {AC64FC33-3D59-465C-93E8-C34C66168E35}
+		{8CD1003B-F744-4905-8ACA-06363EC0B28C} = {B055DEFA-E873-4E04-8F7C-1E9D8E924CA7}
+		{32A146F7-AFEA-4D2E-AD31-66B775F8440A} = {B055DEFA-E873-4E04-8F7C-1E9D8E924CA7}
 	EndGlobalSection
 EndGlobal

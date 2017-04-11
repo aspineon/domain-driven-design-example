@@ -7,7 +7,6 @@ using SeatReservationApp.Airplanes.Domain.DomainServicesContracts;
 using SeatReservationApp.Airplanes.Domain.Repository;
 using SeatReservationApp.Contracts.Application;
 using SeatReservationApp.Impl.Application;
-using SeatReservationApp.Infrastructure;
 using SeatReservationApp.Infrastructure.Context;
 using SeatReservationApp.Infrastructure.Repository;
 

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Data;
 using System.Data.Entity;
+using System.Diagnostics;
 using System.Linq;
 using System.Linq.Expressions;
 using SeatReservationApp.Airplanes.Domain.Repository;
@@ -17,6 +18,7 @@ namespace SeatReservationApp.Infrastructure.Repository
         {
             Context = context;
             _DbSet = context.Set<T>();
+            Context.Database.Log = sql => Debug.Write(sql);
         }
 
         public virtual IQueryable<T> GetAll()
@@ -51,8 +53,6 @@ namespace SeatReservationApp.Infrastructure.Repository
         public virtual void Edit(T entity)
         {
             if (entity == null) { return; }
-
-            if (Context.Entry(entity).State != EntityState.Detached) { return; }
 
             _DbSet.Attach(entity);
             Context.Entry(entity).State = EntityState.Modified;
